@@ -12,7 +12,7 @@ Develop a RESTful service for a simple Todo application using the NestJS framewo
 
 ### Data Structure:
 - Create two entities: `Task` and `Category`.
-- The `Task` entity should have fields such as `id`, `title`, `description`, `dueDate`, and a foreign key reference to the `Category` entity.
+- The `Task` entity should have fields such as `id`, `title`, `description`, and a foreign key reference to the `Category` entity.
 - The `Category` entity should include fields like `id` and `name`.
 - Establish a relationship between `Task` and `Category` (e.g., one `Category` can have multiple `Tasks`).
 
