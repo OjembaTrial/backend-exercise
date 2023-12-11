@@ -12,7 +12,7 @@ Develop a RESTful service for a simple Todo application using the NestJS framewo
 
 ### Data Structure:
 - Create two entities: `Task` and `Category`.
-- The `Task` entity should have fields such as `id`, `title`, `status`, and `description`, `status` should be an enum with values DONE, IN_PROGRESS, and  OPEN, and when adding task by default status should be OPEN. Also, add a foreign key reference to the `Category` entity.
+- The `Task` entity should have fields such as `id`, `title`, `status`, and `description`, status should be an enum with values `DONE`, `IN_PROGRESS`, and  `OPEN`, and when adding task by default status should be OPEN. Also, add a foreign key reference to the `Category` entity.
 - The `Category` entity should include fields like `id` and `name`.
 - Establish a relationship between `Task` and `Category` (e.g., one `Category` can have multiple `Tasks`).
 
