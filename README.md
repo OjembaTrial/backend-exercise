@@ -12,7 +12,7 @@ Develop a RESTful service for a simple Todo application using the NestJS framewo
 
 ### Data Structure:
 - Create two entities: `Task` and `Category`.
-- The `Task` entity should have fields such as `id`, `title`, `description`, and a foreign key reference to the `Category` entity.
+- The `Task` entity should have fields such as `id`, `title`, `status`, and `description`, `status should be an enum with values DONE, IN_PROGRESS, and  OPEN, and when adding task by default status should be OPEN. Also, add a foreign key reference to the `Category` entity.
 - The `Category` entity should include fields like `id` and `name`.
 - Establish a relationship between `Task` and `Category` (e.g., one `Category` can have multiple `Tasks`).
 
@@ -42,3 +42,8 @@ To evaluate your service, perform the following steps:
 1. **Create a Category:** Use the `POST /categories` endpoint to create at least one category.
 2. **Create a Task and Assign Category:** Use the `POST /tasks` endpoint to create a task and assign the previously created category to it.
 3. **Attempt to Delete Category:** Try to delete the category using the `DELETE /categories/:id` endpoint. This should fail and return an HTTP error, as there are tasks referring to that category. Ensure that your service returns the appropriate HTTP error (HTTP 409 Conflict).
+   
+## After you are done with all the functionalities:
+
+1. **Use `Swagger` to document your API, [link](https://rehmat-sayany.medium.com/integrating-swagger-with-nestjs-a-step-by-step-guide-abd532743c43)** 
+2. **Write tests for tasks and category controller and services** 
