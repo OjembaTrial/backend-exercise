@@ -8,7 +8,7 @@ Develop a RESTful service for a simple Todo application using the NestJS framewo
 ### Setup and Initialization:
 - Initialize a new NestJS project.
 - Install `node-json-db` as an npm package for your data storage. You can find the package here: [node-json-db npm package](https://www.npmjs.com/package/node-json-db).
-- Install 'uuid' for generating random IDs. You can find the package here: [node-json-db npm package](https://www.npmjs.com/package/uuid).
+- Install `uuid` for generating random IDs. You can find the package here: [node-json-db npm package](https://www.npmjs.com/package/uuid).
 - Set up the necessary modules and services in NestJS.
 
 ### Data Structure:
