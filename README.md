@@ -30,6 +30,7 @@ Develop a RESTful service for a simple Todo application using the NestJS framewo
   - `DELETE /tasks/:id`: Delete a task by ID.
   - `GET /categories`: Retrieve all categories.
   - `POST /categories`: Create a new category.
+  - `DELETE /categories/:id`: Delete a category by ID.
 
 ### Data Validation and Error Handling:
 - Implement data validation for the incoming requests. Ensure that all required fields are provided and valid.
